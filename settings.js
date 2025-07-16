@@ -54,7 +54,7 @@ module.exports = {
   MENU_IMAGE_URL: getConfig("MENU_IMAGE_URL") || "https://files.catbox.moe/qumhu4.jpg", // Menu image URL
 
   // ===== SECURITY & ANTI-FEATURES =====
-  ANTI_DELETE: process.env.ANTI_DELETE || "true", // Recover deleted messages
+  ANTI_DELETE: process.env.ANTI_DELETE || "false", // Recover deleted messages
   ANTI_CALL: process.env.ANTI_CALL || "false", // Automatically reject calls
   ANTI_BAD_WORD: process.env.ANTI_BAD_WORD || "false", // Block bad words
   ANTI_LINK: process.env.ANTI_LINK || "true", // Block links in groups
